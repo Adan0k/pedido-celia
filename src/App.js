@@ -8,21 +8,14 @@ function App() {
     "sempre sonhou, eu te amo muito Célia, e quero passar o resto da minha vida ao seu lado, eu sei que não sou perfeito, mas eu quero ser melhor por você," +
     "eu quero ser o homem que você merece.";
     const [showPedido, setShowPedido] = useState(false);
-
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setShowPedido(true);
-        }, text.length * 50 + 1000); // Tempo para digitar o texto + 1 segundo extra
-
-        return () => clearTimeout(timer);
-    }, []);
+  useEffect(() => {}, []);
   return (
     <div className="bg-white flex flex-col justify-evenly items-center w-screen h-screen p-10 ">
       <div className="text-8xl h-1/10">
         <h1>Para Célia o meu Amor</h1>
       </div>
       <div className='text-2xl w-4xl text-justify h-1/2'>
-        <MaquinaDeEscrever text={text} />
+        <MaquinaDeEscrever text={text} setShowPedido={setShowPedido} />
       </div>
       {showPedido && <Pedido />}
     </div>
