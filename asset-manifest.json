@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/%7Bpedido-celia%7D/static/css/main.5c291837.css",
-    "main.js": "/%7Bpedido-celia%7D/static/js/main.1129e2fe.js",
-    "static/js/453.8ef6b75d.chunk.js": "/%7Bpedido-celia%7D/static/js/453.8ef6b75d.chunk.js",
-    "index.html": "/%7Bpedido-celia%7D/index.html",
-    "main.5c291837.css.map": "/%7Bpedido-celia%7D/static/css/main.5c291837.css.map",
-    "main.1129e2fe.js.map": "/%7Bpedido-celia%7D/static/js/main.1129e2fe.js.map",
-    "453.8ef6b75d.chunk.js.map": "/%7Bpedido-celia%7D/static/js/453.8ef6b75d.chunk.js.map"
+    "main.css": "/pedido-celia/static/css/main.5c291837.css",
+    "main.js": "/pedido-celia/static/js/main.eae2ca54.js",
+    "static/js/453.8ef6b75d.chunk.js": "/pedido-celia/static/js/453.8ef6b75d.chunk.js",
+    "index.html": "/pedido-celia/index.html",
+    "main.5c291837.css.map": "/pedido-celia/static/css/main.5c291837.css.map",
+    "main.eae2ca54.js.map": "/pedido-celia/static/js/main.eae2ca54.js.map",
+    "453.8ef6b75d.chunk.js.map": "/pedido-celia/static/js/453.8ef6b75d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c291837.css",
-    "static/js/main.1129e2fe.js"
+    "static/js/main.eae2ca54.js"
   ]
 }
